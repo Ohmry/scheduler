@@ -503,10 +503,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@ohmry/electron-vite-title-bar-typescript@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@ohmry/electron-vite-title-bar-typescript/-/electron-vite-title-bar-typescript-1.0.3.tgz#b3c98904141ad53ef107c6fdf0226ae7dde65b27"
-  integrity sha512-K6ByxhDCNdJcDzJVXjNe0eXqcA0+nHs475Nm0fuzoVhHmE7AhSCQqjITugouULq7dEf0wJ37mqgapxTDVwgGGQ==
+"@ohmry/electron-vite-title-bar-typescript@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ohmry/electron-vite-title-bar-typescript/-/electron-vite-title-bar-typescript-1.1.0.tgz#d62d6077b5c9c2e61fc1d5c16b2b80432de1d507"
+  integrity sha512-5e8dkE1MbfCcEq66KyK/6n1J4c+kM5HEVp8bbdr6ZXMrIeE/ctG4J+o6i8TSbgxsUEtiuaNT5hCaeKWogvL+mw==
   dependencies:
     mitt "^3.0.1"
 

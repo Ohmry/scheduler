@@ -3,7 +3,8 @@ export default [
     label: '파일',
     subMenu: [
       {
-        label: '새 작업공간'
+        label: '새 작업공간',
+        hotKey: 'Ctrl+N'
       },
       { separator: true },
       {
