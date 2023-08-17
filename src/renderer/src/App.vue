@@ -21,6 +21,13 @@ const onMenuClick = (id: string, label: string): void => {
 }
 </script>
 <style>
+:root {
+  /* --evtb-container-background-color: var(--primary-color);
+  --evtb-container-border-bottom-color: var(--primary-color);
+  --evtb-root-menu-item-background-color: var(--primary-color);
+  --evtb-title-container-text-color: white;
+  --evtb-root-menu-item-text-color: white; */
+}
 main.scheduler-main-container {
   position: relative;
   width: 100vw;

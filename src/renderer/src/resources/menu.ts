@@ -54,13 +54,16 @@ export default [
     label: '화면',
     subMenu: [
       {
-        label: '체크리스트'
+        label: '체크리스트로 보기',
+        hotKey: 'Ctrl+Shift+C'
       },
       {
-        label: '칸반보드'
+        label: '칸반보드로 보기',
+        hotKey: 'Ctrl+Shift+K'
       },
       {
-        label: '간트차트'
+        label: '간트차트로 보기',
+        hotKey: 'Ctrl+Shift+G'
       }
     ]
   },
