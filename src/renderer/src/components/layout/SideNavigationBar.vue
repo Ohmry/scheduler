@@ -1,7 +1,7 @@
 <template>
   <nav class="scheduler-side-nav-bar" id="scheduler-side-nav-bar">
     <router-link to="/checklist-view">
-      <ViewIconCheckList></ViewIconCheckList>
+      <ViewIconCheckList to="/checklist-view"></ViewIconCheckList>
       <div class="scheduler-side-nav-bar-tooltip">체크리스트로 보기</div>
     </router-link>
     <router-link to="/kanbanboard-view">
@@ -43,12 +43,9 @@ onMounted(() => {
 nav.scheduler-side-nav-bar {
   width: 50px;
   padding: 5px 0;
-  /* padding: 5px 9.333px 5px 10px; */
-  /* background-color: var(--primary-color); */
   background-color: #F7F7F7;
-  /* border-right: 1px solid #AAA; */
   border-right: 1px solid var(--primary-color);
-  height: calc(100vh - 41px);
+  height: calc(100vh - 40.667px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

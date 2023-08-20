@@ -54,16 +54,19 @@ export default [
     label: '화면',
     subMenu: [
       {
+        id: 'menu-checklist-view',
         label: '체크리스트로 보기',
-        hotKey: 'Ctrl+Shift+C'
+        hotKey: 'Ctrl+1'
       },
       {
+        id: 'menu-kanbanboard-view',
         label: '칸반보드로 보기',
-        hotKey: 'Ctrl+Shift+K'
+        hotKey: 'Ctrl+2'
       },
       {
+        id: 'menu-ganttchart-view',
         label: '간트차트로 보기',
-        hotKey: 'Ctrl+Shift+G'
+        hotKey: 'Ctrl+3'
       }
     ]
   },

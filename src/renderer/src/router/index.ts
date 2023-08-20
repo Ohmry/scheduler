@@ -3,8 +3,7 @@ import { createWebHistory, createRouter } from "vue-router"
 const routes = [
   {
     path: '/',
-    name: 'Main',
-    component: () => import('@renderer/components/view/MainView.vue')
+    redirect: '/checklist-view'
   },
   {
     path: '/checklist-view',

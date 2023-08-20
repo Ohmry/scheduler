@@ -12,5 +12,9 @@ const props = defineProps({
 })
 </script>
 <style scoped>
-  
+div {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 0 10px 0;
+}
 </style>
